@@ -1,0 +1,61 @@
+#kernel: python3
+ipykernel>=6.29.5
+
+# Excel processing
+openpyxl>=3.1.2 
+xlrd>=2.0.1      
+pandas>=2.0.3    
+
+# PDF processing
+PyMuPDF>=1.23.7  # Used for PDF reading and rendering to images (no external dependencies)
+
+# Word document processing
+python-docx>=0.8.11
+docx2python>=1.0.0
+
+# PowerPoint processing
+python-pptx>=0.6.21
+
+# Windows-specific dependencies (only installed on Windows)
+pywin32>=306; sys_platform == 'win32' 
+
+# OCR support
+pytesseract>=0.3.10  
+# Note: tesseract-ocr must be installed separately on the system
+
+# Encoding detection
+chardet>=5.2.0  
+
+# Core utilities
+typing-extensions>=4.8.0
+
+# Data analysis and machine learning
+scikit-learn>=1.0.0
+numpy>=1.24.0,<1.25.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=6.1.2
+seqeval>=1.2.2
+
+# Deep learning frameworks
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+
+# French language models
+sentencepiece>=0.1.99
+
+# Model evaluation and utilities
+tqdm>=4.65.0
+tensorboard>=2.13.0
+sklearn-crfsuite>=0.3.6
+
+# Document processing
+PyPDF2>=2.0.0
+pdfminer.six>=20200726
+pytesseract>=0.3.8
+Pillow>=8.2.0
+nltk>=3.6.2
+wordcloud>=1.8.1
+spacy>=3.5.0,<3.6.0
+fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.5.0/fr_core_news_md-3.5.0-py3-none-any.whl
