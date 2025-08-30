@@ -1,0 +1,10 @@
+{
+    "total_files": 998,
+    "text_based_pdfs": 604,
+    "image_based_pdfs": 393,
+    "pdfs_with_images": 875,
+    "total_images": 3674,
+    "avg_words_per_doc": 528.5400801603206,
+    "avg_pages_per_doc": 2.0430861723446894,
+    "extraction_date": "2025-08-30 13:58:38"
+}

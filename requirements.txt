@@ -2,9 +2,9 @@
 ipykernel>=6.29.5
 
 # Excel processing
-openpyxl>=3.1.2 
-xlrd>=2.0.1      
-pandas>=2.0.3    
+openpyxl>=3.1.2
+xlrd>=2.0.1
+pandas>=2.0.3
 
 # PDF processing
 PyMuPDF>=1.23.7  # Used for PDF reading and rendering to images (no external dependencies)
@@ -17,14 +17,14 @@ docx2python>=1.0.0
 python-pptx>=0.6.21
 
 # Windows-specific dependencies (only installed on Windows)
-pywin32>=306; sys_platform == 'win32' 
+pywin32>=306; sys_platform == 'win32'
 
 # OCR support
-pytesseract>=0.3.10  
+pytesseract>=0.3.10
 # Note: tesseract-ocr must be installed separately on the system
 
 # Encoding detection
-chardet>=5.2.0  
+chardet>=5.2.0
 
 # Core utilities
 typing-extensions>=4.8.0
@@ -59,3 +59,4 @@ nltk>=3.6.2
 wordcloud>=1.8.1
 spacy>=3.5.0,<3.6.0
 fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.5.0/fr_core_news_md-3.5.0-py3-none-any.whl
+
