@@ -2,3 +2,6 @@ venv/
 .vscode/
 .github/
 data/
+__pycache__/
+output/
+results/
